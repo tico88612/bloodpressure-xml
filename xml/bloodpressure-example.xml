@@ -3,16 +3,7 @@
     <meta>
       <profile value="http://hl7.org/fhir/StructureDefinition/vitalsigns"/>
     </meta>
-    <identifier>
-      <system value="urn:ietf:rfc:3986"/>
-      <value value="urn:uuid:187e0c12-8dd2-67e2-99b2-bf273c878281"/>
-    </identifier> 
     <!--     demonstrating the use of the baseOn element with a fictive identifier   -->
-    <basedOn> <identifier>
-      <system value="https://acme.org/identifiers"/>
-      <value value="1234"/>
-    </identifier> </basedOn>
-    <status value="final"/>
     <category>
       <coding>
         <system value="http://hl7.org/fhir/observation-category"/>
@@ -20,14 +11,6 @@
         <display value="Vital Signs"/>
       </coding>
     </category>
-    <code>
-      <coding>
-        <system value="http://loinc.org"/>
-        <code value="85354-9"/>
-        <display value="Bood pressure panel with all children optional"/>
-      </coding>
-      <text value="Blood pressure systolic &amp; diastolic"/>
-    </code>
     <subject>
       <reference value="Patient/example"/>
     </subject>
