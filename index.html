@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <head>
+	<meta charset="utf-8" />
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.bundle.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.bundle.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.js"></script>
@@ -11,7 +12,7 @@
             data: {
                 labels: ["January", "February", "March", "April", "May", "June", "July"],
                 datasets: [{
-                    label: "My First dataset",
+                    label: "收縮壓（最高血壓）",
                     backgroundColor: "#FF0000",
                     borderColor: "#FF0000",
                     data: [
@@ -19,20 +20,28 @@
                     ],
                     fill: false,
                 }, {
-                    label: "My Second dataset",
-                    fill: false,
+                    label: "舒張壓（最低血壓）",
                     backgroundColor: "#0000FF",
                     borderColor: "#0000FF",
                     data: [
                         123,101,222,87,98,77,222
                     ],
+					fill: false,
+                }, {
+                    label: "脈搏（心跳）",
+                    backgroundColor: "#00FF00",
+                    borderColor: "#00FF00",
+                    data: [
+                        12,111,82,44,126,88,42
+                    ],
+					fill: false,
                 }]
             },
             options: {
                 responsive: true,
                 title:{
                     display:true,
-                    text:'Chart.js Line Chart'
+                    text:'生理監測查詢'
                 },
                 tooltips: {
                     mode: 'index',
@@ -47,14 +56,14 @@
                         display: true,
                         scaleLabel: {
                             display: true,
-                            labelString: 'Month'
+                            labelString: '時間'
                         }
                     }],
                     yAxes: [{
                         display: true,
                         scaleLabel: {
                             display: true,
-                            labelString: 'Value'
+                            labelString: '數值'
                         }
                     }]
                 }
