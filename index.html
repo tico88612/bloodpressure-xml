@@ -9,7 +9,8 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
 <script type="text/javascript">
 	alert("正在測試中 Debug Mode\nDemo平台：Github.io");
-	var MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+	//var MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+	//Chart.defaults.global.defaultFontSize = 20;
         var config = {
             type: 'line',
             data: {
@@ -47,7 +48,8 @@
                 responsive: true,
                 title:{
                     display:true,
-                    text:'生理監測查詢'
+                    text:'生理監測查詢',
+					fontSize: 20
                 },
                 tooltips: {
                     mode: 'index',
