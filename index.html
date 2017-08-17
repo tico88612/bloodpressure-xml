@@ -96,7 +96,14 @@
 			config.data.datasets[0].data.push(xmlDoc.getElementsByTagName("Tag0027a001")[i].getElementsByTagName("SBP")[0].childNodes[0].nodeValue);
 			config.data.datasets[1].data.push(xmlDoc.getElementsByTagName("Tag0027a001")[i].getElementsByTagName("DBP")[0].childNodes[0].nodeValue);
 			config.data.datasets[2].data.push(xmlDoc.getElementsByTagName("Tag0027a001")[i].getElementsByTagName("PUL")[0].childNodes[0].nodeValue);
-			config.data.labels.push(xmlDoc.getElementsByTagName("Tag00080012")[i].childNodes[0].nodeValue+'\n'+xmlDoc.getElementsByTagName("Tag00080013")[i].childNodes[0].nodeValue)
+			var dateString=xmlDoc.getElementsByTagName("Tag00080012")[i].childNodes[0].nodeValue+xmlDoc.getElementsByTagName("Tag00080013")[i].childNodes[0].nodeValue;
+			var year = dateString.substring(0,4);
+			var month = dateString.substring(4,6);
+			var day = dateString.substring(6,8);
+			var hour = dateString.substring(8,10);
+			var minute = dateString.substring(10,12);
+			var second = dateString.substring(12,14);
+			config.data.labels.push(year+'/'+month+'/'+day+' '+hour+':'+minute+':'+second);
 		}
 	}
 	    
