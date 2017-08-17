@@ -13,7 +13,7 @@
         var config = {
             type: 'line',
             data: {
-                labels: ["January", "February", "March", "April", "May", "June", "July"],
+                labels: [/*"January", "February", "March", "April", "May", "June", "July"*/],
                 datasets: [{
                     label: "收縮壓（最高血壓）",
                     backgroundColor: "#FF0000",
@@ -96,6 +96,7 @@
 			config.data.datasets[0].data.push(xmlDoc.getElementsByTagName("Tag0027a001")[i].getElementsByTagName("SBP")[0].childNodes[0].nodeValue);
 			config.data.datasets[1].data.push(xmlDoc.getElementsByTagName("Tag0027a001")[i].getElementsByTagName("DBP")[0].childNodes[0].nodeValue);
 			config.data.datasets[2].data.push(xmlDoc.getElementsByTagName("Tag0027a001")[i].getElementsByTagName("PUL")[0].childNodes[0].nodeValue);
+			config.data.labels.push(xmlDoc.getElementsByTagName("Tag00080012")[i].childNodes[0].nodeValue+'\n'+xmlDoc.getElementsByTagName("Tag00080013")[i].childNodes[0].nodeValue)
 		}
 	}
 	    
