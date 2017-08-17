@@ -1,12 +1,25 @@
 <!DOCTYPE html>
+
 <head>
-	<meta charset="utf-8" />
-	<title>生理監測查詢（Product By Jerry Yang）</title>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.bundle.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.bundle.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
-	<script type="text/javascript">
+<meta charset="utf-8" />
+<title>生理監測查詢（Product By Jerry Yang）</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.bundle.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
+<script type="text/javascript">
+	//alert("正在測試中\nDemo平台：Github.io\nXML提供平台：慈大主機");
+	if (window.XMLHttpRequest){// code for IE7+, Firefox, Chrome, Opera, Safari
+		xmlhttp=new XMLHttpRequest();
+	}
+	else
+	{// code for IE6, IE5
+		xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+	}
+	xmlhttp.open("GET","http://203.64.84.214:1128/API/medication/search.aspx?ID=S124564070&TYPE=PCD&LEVEL=sopinstance&START=20150101&END=20180101",false);
+	xmlhttp.send();
+	xmlDoc=xmlhttp.responseXML;
+	//alert(xmlDoc);
 	    var MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
         var config = {
             type: 'line',
@@ -83,6 +96,6 @@
 <!-- HTML -->
 <body>
 <div class="box">
-    <canvas id="chart-area" class="zone"></canvas>
+  <canvas id="chart-area" class="zone"></canvas>
 </div>
 </body>
