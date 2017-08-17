@@ -2,4 +2,5 @@
 -------------------------
 # License
 Chart.js MIT license
+
 This Project Apache license
