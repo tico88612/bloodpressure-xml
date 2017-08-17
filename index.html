@@ -9,18 +9,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
 <script type="text/javascript">
 	//alert("正在測試中\nDemo平台：Github.io\nXML提供平台：慈大主機");
-	if (window.XMLHttpRequest){// code for IE7+, Firefox, Chrome, Opera, Safari
-		xmlhttp=new XMLHttpRequest();
-	}
-	else
-	{// code for IE6, IE5
-		xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
-	}
-	xmlhttp.open("GET","xml/tester.xml",false);
-	xmlhttp.send();
-	xmlDoc=xmlhttp.responseXML;
-	//alert(xmlDoc);
-	    var MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+	var MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
         var config = {
             type: 'line',
             data: {
@@ -30,7 +19,7 @@
                     backgroundColor: "#FF0000",
                     borderColor: "#FF0000",
                     data: [
-                        123,211,222,11,24,121,222
+                        //123,211,222,11,24,121,222
                     ],
                     fill: false,
 					lineTension : 0,
@@ -39,7 +28,7 @@
                     backgroundColor: "#0000FF",
                     borderColor: "#0000FF",
                     data: [
-                        123,101,222,87,98,77,222
+                        //123,101,222,87,98,77,222
                     ],
 					fill: false,
 					lineTension : 0,
@@ -48,7 +37,7 @@
                     backgroundColor: "#00FF00",
                     borderColor: "#00FF00",
                     data: [
-                        12,111,82,44,126,88,42
+                        //12,111,82,44,126,88,42
                     ],
 					fill: false,
 					lineTension : 0,
@@ -86,6 +75,27 @@
                 }
             }
         };
+	if (window.XMLHttpRequest){// code for IE7+, Firefox, Chrome, Opera, Safari
+		xmlhttp=new XMLHttpRequest();
+	}
+	else
+	{// code for IE6, IE5
+		xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+	}
+	xmlhttp.open("GET","xml/tester.xml",false);
+	xmlhttp.send();
+	xmlDoc=xmlhttp.responseXML;
+	alert(xmlDoc.getElementsByTagName("Tag0027a001")[0].getElementsByTagName("TEM")[0].childNodes[0].nodeValue);
+	for(var i=0;xmlDoc.getElementsByTagName("Tag0027a001")[i]; i+=1){
+		//var readoc=xmlDoc.getElementsByTagName("Tag0027a001")[i].getElementsByTagName("SBP")[0];
+		if(xmlDoc.getElementsByTagName("Tag0027a001")[i].getElementsByTagName("SBP")[0]!=undefined){
+			//alert(xmlDoc.getElementsByTagName("Tag0027a001")[i].getElementsByTagName("SBP")[0].childNodes[0].nodeValue);
+			config.data.datasets[0].data.push(xmlDoc.getElementsByTagName("Tag0027a001")[i].getElementsByTagName("SBP")[0].childNodes[0].nodeValue);
+			config.data.datasets[1].data.push(xmlDoc.getElementsByTagName("Tag0027a001")[i].getElementsByTagName("DBP")[0].childNodes[0].nodeValue);
+			config.data.datasets[2].data.push(xmlDoc.getElementsByTagName("Tag0027a001")[i].getElementsByTagName("PUL")[0].childNodes[0].nodeValue);
+		}
+	}
+	    
 
         window.onload = function() {
             var ctx = document.getElementById("chart-area").getContext("2d");
