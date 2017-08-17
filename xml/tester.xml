@@ -1,0 +1,778 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<PCD>
+  <SOPInstance>
+    <Tag0011a001 FieldName="PatientLocation" VR="SH">ETOPO999</Tag0011a001>
+    <Tag00100010 FieldName="PatientName" VR="PN">莊忠翰</Tag00100010>
+    <Tag00100020 FieldName="PatientID" VR="LO">S124564070</Tag00100020>
+    <Tag00100030 FieldName="PatientsBirthDate" VR="DA">1992/06/13</Tag00100030>
+    <Tag00100032 FieldName="PatientsBirthTime" VR="TM"></Tag00100032>
+    <Tag00100040 FieldName="PatientsSex" VR="CS">M</Tag00100040>
+    <Tag00110001 FieldName="Patientresource" VR="LT">S124564070</Tag00110001>
+    <Tag0020000d FieldName="StudyInstanceUID" VR="UI">2.16.886.104.100661.100000.8</Tag0020000d>
+    <Tag00080020 FieldName="StudyDate" VR="DA">20170615</Tag00080020>
+    <Tag00080030 FieldName="StudyTime" VR="TM">161000</Tag00080030>
+    <Tag00081030 FieldName="StudyDescription" VR="LO"></Tag00081030>
+    <Tag00200010 FieldName="StudyID" VR="SH">8</Tag00200010>
+    <Tag00080050 FieldName="AccessionNumber" VR="SH"></Tag00080050>
+    <Tag00080090 FieldName="ReferringPhysiciansName" VR="PN"></Tag00080090>
+    <Tag00090001 FieldName="Encounterresource" VR="LT"></Tag00090001>
+    <Tag0020000e FieldName="SeriesInstanceUID" VR="UI">2.16.886.104.100661.100000.25</Tag0020000e>
+    <Tag00200011 FieldName="SeriesNumber" VR="IS">25</Tag00200011>
+    <Tag00080060 FieldName="Modality" VR="CS"></Tag00080060>
+    <Tag00080021 FieldName="SeriesDate" VR="DA">20170615</Tag00080021>
+    <Tag00080031 FieldName="SeriesTime" VR="TM">161000</Tag00080031>
+    <Tag00210001 FieldName="MedicationOrderresourse" VR="LT"></Tag00210001>
+    <Tag00080016 FieldName="SOPClassUID" VR="UI">S124564070.20170619081310</Tag00080016>
+    <Tag00080018 FieldName="SOPInstanceUID" VR="UI">41</Tag00080018>
+    <Tag0027a002 FieldName="DeviceType" VR="LO"></Tag0027a002>
+    <Tag0027a001 FieldName="DeviceRecordResult" VR="LT">
+      <TEM>36.6</TEM>
+    </Tag0027a001>
+    <Tag00080012 FieldName="InstanceCreatorDate" VR="DA">20170619</Tag00080012>
+    <Tag00080014 FieldName="InstanceCreatorUID" VR="UI">12131231311</Tag00080014>
+    <Tag00080013 FieldName="InstanceCreatorTime" VR="TM">081310</Tag00080013>
+    <Tag0018a001 FieldName="ContributingEquipmentSequence" VR="LT"></Tag0018a001>
+  </SOPInstance>
+  <SOPInstance>
+    <Tag0011a001 FieldName="PatientLocation" VR="SH">ETOPO999</Tag0011a001>
+    <Tag00100010 FieldName="PatientName" VR="PN">莊忠翰</Tag00100010>
+    <Tag00100020 FieldName="PatientID" VR="LO">S124564070</Tag00100020>
+    <Tag00100030 FieldName="PatientsBirthDate" VR="DA">1992/06/13</Tag00100030>
+    <Tag00100032 FieldName="PatientsBirthTime" VR="TM"></Tag00100032>
+    <Tag00100040 FieldName="PatientsSex" VR="CS">M</Tag00100040>
+    <Tag00110001 FieldName="Patientresource" VR="LT">S124564070</Tag00110001>
+    <Tag0020000d FieldName="StudyInstanceUID" VR="UI">2.16.886.104.100661.100000.8</Tag0020000d>
+    <Tag00080020 FieldName="StudyDate" VR="DA">20170615</Tag00080020>
+    <Tag00080030 FieldName="StudyTime" VR="TM">161000</Tag00080030>
+    <Tag00081030 FieldName="StudyDescription" VR="LO"></Tag00081030>
+    <Tag00200010 FieldName="StudyID" VR="SH">8</Tag00200010>
+    <Tag00080050 FieldName="AccessionNumber" VR="SH"></Tag00080050>
+    <Tag00080090 FieldName="ReferringPhysiciansName" VR="PN"></Tag00080090>
+    <Tag00090001 FieldName="Encounterresource" VR="LT"></Tag00090001>
+    <Tag0020000e FieldName="SeriesInstanceUID" VR="UI">2.16.886.104.100661.100000.25</Tag0020000e>
+    <Tag00200011 FieldName="SeriesNumber" VR="IS">25</Tag00200011>
+    <Tag00080060 FieldName="Modality" VR="CS"></Tag00080060>
+    <Tag00080021 FieldName="SeriesDate" VR="DA">20170615</Tag00080021>
+    <Tag00080031 FieldName="SeriesTime" VR="TM">161000</Tag00080031>
+    <Tag00210001 FieldName="MedicationOrderresourse" VR="LT"></Tag00210001>
+    <Tag00080016 FieldName="SOPClassUID" VR="UI">S124564070.20170619091242</Tag00080016>
+    <Tag00080018 FieldName="SOPInstanceUID" VR="UI">43</Tag00080018>
+    <Tag0027a002 FieldName="DeviceType" VR="LO"></Tag0027a002>
+    <Tag0027a001 FieldName="DeviceRecordResult" VR="LT">
+      <TEM>36.9</TEM>
+    </Tag0027a001>
+    <Tag00080012 FieldName="InstanceCreatorDate" VR="DA">20170619</Tag00080012>
+    <Tag00080014 FieldName="InstanceCreatorUID" VR="UI">12131231311</Tag00080014>
+    <Tag00080013 FieldName="InstanceCreatorTime" VR="TM">091242</Tag00080013>
+    <Tag0018a001 FieldName="ContributingEquipmentSequence" VR="LT"></Tag0018a001>
+  </SOPInstance>
+  <SOPInstance>
+    <Tag0011a001 FieldName="PatientLocation" VR="SH">ETOPO999</Tag0011a001>
+    <Tag00100010 FieldName="PatientName" VR="PN">莊忠翰</Tag00100010>
+    <Tag00100020 FieldName="PatientID" VR="LO">S124564070</Tag00100020>
+    <Tag00100030 FieldName="PatientsBirthDate" VR="DA">1992/06/13</Tag00100030>
+    <Tag00100032 FieldName="PatientsBirthTime" VR="TM"></Tag00100032>
+    <Tag00100040 FieldName="PatientsSex" VR="CS">M</Tag00100040>
+    <Tag00110001 FieldName="Patientresource" VR="LT">S124564070</Tag00110001>
+    <Tag0020000d FieldName="StudyInstanceUID" VR="UI">2.16.886.104.100661.100000.8</Tag0020000d>
+    <Tag00080020 FieldName="StudyDate" VR="DA">20170615</Tag00080020>
+    <Tag00080030 FieldName="StudyTime" VR="TM">161000</Tag00080030>
+    <Tag00081030 FieldName="StudyDescription" VR="LO"></Tag00081030>
+    <Tag00200010 FieldName="StudyID" VR="SH">8</Tag00200010>
+    <Tag00080050 FieldName="AccessionNumber" VR="SH"></Tag00080050>
+    <Tag00080090 FieldName="ReferringPhysiciansName" VR="PN"></Tag00080090>
+    <Tag00090001 FieldName="Encounterresource" VR="LT"></Tag00090001>
+    <Tag0020000e FieldName="SeriesInstanceUID" VR="UI">2.16.886.104.100661.100000.25</Tag0020000e>
+    <Tag00200011 FieldName="SeriesNumber" VR="IS">25</Tag00200011>
+    <Tag00080060 FieldName="Modality" VR="CS"></Tag00080060>
+    <Tag00080021 FieldName="SeriesDate" VR="DA">20170615</Tag00080021>
+    <Tag00080031 FieldName="SeriesTime" VR="TM">161000</Tag00080031>
+    <Tag00210001 FieldName="MedicationOrderresourse" VR="LT"></Tag00210001>
+    <Tag00080016 FieldName="SOPClassUID" VR="UI">S124564070.20170619153323</Tag00080016>
+    <Tag00080018 FieldName="SOPInstanceUID" VR="UI">44</Tag00080018>
+    <Tag0027a002 FieldName="DeviceType" VR="LO"></Tag0027a002>
+    <Tag0027a001 FieldName="DeviceRecordResult" VR="LT">
+      <SBP>117</SBP>
+      <DBP>78</DBP>
+      <PUL>62</PUL>
+    </Tag0027a001>
+    <Tag00080012 FieldName="InstanceCreatorDate" VR="DA">20170619</Tag00080012>
+    <Tag00080014 FieldName="InstanceCreatorUID" VR="UI">12131231311</Tag00080014>
+    <Tag00080013 FieldName="InstanceCreatorTime" VR="TM">153323</Tag00080013>
+    <Tag0018a001 FieldName="ContributingEquipmentSequence" VR="LT"></Tag0018a001>
+  </SOPInstance>
+  <SOPInstance>
+    <Tag0011a001 FieldName="PatientLocation" VR="SH">ETOPO999</Tag0011a001>
+    <Tag00100010 FieldName="PatientName" VR="PN">莊忠翰</Tag00100010>
+    <Tag00100020 FieldName="PatientID" VR="LO">S124564070</Tag00100020>
+    <Tag00100030 FieldName="PatientsBirthDate" VR="DA">1992/06/13</Tag00100030>
+    <Tag00100032 FieldName="PatientsBirthTime" VR="TM"></Tag00100032>
+    <Tag00100040 FieldName="PatientsSex" VR="CS">M</Tag00100040>
+    <Tag00110001 FieldName="Patientresource" VR="LT">S124564070</Tag00110001>
+    <Tag0020000d FieldName="StudyInstanceUID" VR="UI">2.16.886.104.100661.100000.8</Tag0020000d>
+    <Tag00080020 FieldName="StudyDate" VR="DA">20170615</Tag00080020>
+    <Tag00080030 FieldName="StudyTime" VR="TM">161000</Tag00080030>
+    <Tag00081030 FieldName="StudyDescription" VR="LO"></Tag00081030>
+    <Tag00200010 FieldName="StudyID" VR="SH">8</Tag00200010>
+    <Tag00080050 FieldName="AccessionNumber" VR="SH"></Tag00080050>
+    <Tag00080090 FieldName="ReferringPhysiciansName" VR="PN"></Tag00080090>
+    <Tag00090001 FieldName="Encounterresource" VR="LT"></Tag00090001>
+    <Tag0020000e FieldName="SeriesInstanceUID" VR="UI">2.16.886.104.100661.100000.25</Tag0020000e>
+    <Tag00200011 FieldName="SeriesNumber" VR="IS">25</Tag00200011>
+    <Tag00080060 FieldName="Modality" VR="CS"></Tag00080060>
+    <Tag00080021 FieldName="SeriesDate" VR="DA">20170615</Tag00080021>
+    <Tag00080031 FieldName="SeriesTime" VR="TM">161000</Tag00080031>
+    <Tag00210001 FieldName="MedicationOrderresourse" VR="LT"></Tag00210001>
+    <Tag00080016 FieldName="SOPClassUID" VR="UI">S124564070.20170620153356</Tag00080016>
+    <Tag00080018 FieldName="SOPInstanceUID" VR="UI">91</Tag00080018>
+    <Tag0027a002 FieldName="DeviceType" VR="LO"></Tag0027a002>
+    <Tag0027a001 FieldName="DeviceRecordResult" VR="LT">
+      <TEM>36.8</TEM>
+    </Tag0027a001>
+    <Tag00080012 FieldName="InstanceCreatorDate" VR="DA">20170620</Tag00080012>
+    <Tag00080014 FieldName="InstanceCreatorUID" VR="UI">12131231311</Tag00080014>
+    <Tag00080013 FieldName="InstanceCreatorTime" VR="TM">153356</Tag00080013>
+    <Tag0018a001 FieldName="ContributingEquipmentSequence" VR="LT"></Tag0018a001>
+  </SOPInstance>
+  <SOPInstance>
+    <Tag0011a001 FieldName="PatientLocation" VR="SH">ETOPO999</Tag0011a001>
+    <Tag00100010 FieldName="PatientName" VR="PN">莊忠翰</Tag00100010>
+    <Tag00100020 FieldName="PatientID" VR="LO">S124564070</Tag00100020>
+    <Tag00100030 FieldName="PatientsBirthDate" VR="DA">1992/06/13</Tag00100030>
+    <Tag00100032 FieldName="PatientsBirthTime" VR="TM"></Tag00100032>
+    <Tag00100040 FieldName="PatientsSex" VR="CS">M</Tag00100040>
+    <Tag00110001 FieldName="Patientresource" VR="LT">S124564070</Tag00110001>
+    <Tag0020000d FieldName="StudyInstanceUID" VR="UI">2.16.886.104.100661.100000.8</Tag0020000d>
+    <Tag00080020 FieldName="StudyDate" VR="DA">20170615</Tag00080020>
+    <Tag00080030 FieldName="StudyTime" VR="TM">161000</Tag00080030>
+    <Tag00081030 FieldName="StudyDescription" VR="LO"></Tag00081030>
+    <Tag00200010 FieldName="StudyID" VR="SH">8</Tag00200010>
+    <Tag00080050 FieldName="AccessionNumber" VR="SH"></Tag00080050>
+    <Tag00080090 FieldName="ReferringPhysiciansName" VR="PN"></Tag00080090>
+    <Tag00090001 FieldName="Encounterresource" VR="LT"></Tag00090001>
+    <Tag0020000e FieldName="SeriesInstanceUID" VR="UI">2.16.886.104.100661.100000.25</Tag0020000e>
+    <Tag00200011 FieldName="SeriesNumber" VR="IS">25</Tag00200011>
+    <Tag00080060 FieldName="Modality" VR="CS"></Tag00080060>
+    <Tag00080021 FieldName="SeriesDate" VR="DA">20170615</Tag00080021>
+    <Tag00080031 FieldName="SeriesTime" VR="TM">161000</Tag00080031>
+    <Tag00210001 FieldName="MedicationOrderresourse" VR="LT"></Tag00210001>
+    <Tag00080016 FieldName="SOPClassUID" VR="UI">S124564070.20170620153731</Tag00080016>
+    <Tag00080018 FieldName="SOPInstanceUID" VR="UI">92</Tag00080018>
+    <Tag0027a002 FieldName="DeviceType" VR="LO"></Tag0027a002>
+    <Tag0027a001 FieldName="DeviceRecordResult" VR="LT">
+      <SBP>124</SBP>
+      <DBP>75</DBP>
+      <PUL>60</PUL>
+    </Tag0027a001>
+    <Tag00080012 FieldName="InstanceCreatorDate" VR="DA">20170620</Tag00080012>
+    <Tag00080014 FieldName="InstanceCreatorUID" VR="UI">12131231311</Tag00080014>
+    <Tag00080013 FieldName="InstanceCreatorTime" VR="TM">153731</Tag00080013>
+    <Tag0018a001 FieldName="ContributingEquipmentSequence" VR="LT"></Tag0018a001>
+  </SOPInstance>
+  <SOPInstance>
+    <Tag0011a001 FieldName="PatientLocation" VR="SH">ETOPO999</Tag0011a001>
+    <Tag00100010 FieldName="PatientName" VR="PN">莊忠翰</Tag00100010>
+    <Tag00100020 FieldName="PatientID" VR="LO">S124564070</Tag00100020>
+    <Tag00100030 FieldName="PatientsBirthDate" VR="DA">1992/06/13</Tag00100030>
+    <Tag00100032 FieldName="PatientsBirthTime" VR="TM"></Tag00100032>
+    <Tag00100040 FieldName="PatientsSex" VR="CS">M</Tag00100040>
+    <Tag00110001 FieldName="Patientresource" VR="LT">S124564070</Tag00110001>
+    <Tag0020000d FieldName="StudyInstanceUID" VR="UI">2.16.886.104.100661.100000.8</Tag0020000d>
+    <Tag00080020 FieldName="StudyDate" VR="DA">20170615</Tag00080020>
+    <Tag00080030 FieldName="StudyTime" VR="TM">161000</Tag00080030>
+    <Tag00081030 FieldName="StudyDescription" VR="LO"></Tag00081030>
+    <Tag00200010 FieldName="StudyID" VR="SH">8</Tag00200010>
+    <Tag00080050 FieldName="AccessionNumber" VR="SH"></Tag00080050>
+    <Tag00080090 FieldName="ReferringPhysiciansName" VR="PN"></Tag00080090>
+    <Tag00090001 FieldName="Encounterresource" VR="LT"></Tag00090001>
+    <Tag0020000e FieldName="SeriesInstanceUID" VR="UI">2.16.886.104.100661.100000.25</Tag0020000e>
+    <Tag00200011 FieldName="SeriesNumber" VR="IS">25</Tag00200011>
+    <Tag00080060 FieldName="Modality" VR="CS"></Tag00080060>
+    <Tag00080021 FieldName="SeriesDate" VR="DA">20170615</Tag00080021>
+    <Tag00080031 FieldName="SeriesTime" VR="TM">161000</Tag00080031>
+    <Tag00210001 FieldName="MedicationOrderresourse" VR="LT"></Tag00210001>
+    <Tag00080016 FieldName="SOPClassUID" VR="UI">S124564070.20170620203051</Tag00080016>
+    <Tag00080018 FieldName="SOPInstanceUID" VR="UI">96</Tag00080018>
+    <Tag0027a002 FieldName="DeviceType" VR="LO"></Tag0027a002>
+    <Tag0027a001 FieldName="DeviceRecordResult" VR="LT">
+      <TEM>36.5</TEM>
+    </Tag0027a001>
+    <Tag00080012 FieldName="InstanceCreatorDate" VR="DA">20170620</Tag00080012>
+    <Tag00080014 FieldName="InstanceCreatorUID" VR="UI">12131231311</Tag00080014>
+    <Tag00080013 FieldName="InstanceCreatorTime" VR="TM">203051</Tag00080013>
+    <Tag0018a001 FieldName="ContributingEquipmentSequence" VR="LT"></Tag0018a001>
+  </SOPInstance>
+  <SOPInstance>
+    <Tag0011a001 FieldName="PatientLocation" VR="SH">ETOPO999</Tag0011a001>
+    <Tag00100010 FieldName="PatientName" VR="PN">莊忠翰</Tag00100010>
+    <Tag00100020 FieldName="PatientID" VR="LO">S124564070</Tag00100020>
+    <Tag00100030 FieldName="PatientsBirthDate" VR="DA">1992/06/13</Tag00100030>
+    <Tag00100032 FieldName="PatientsBirthTime" VR="TM"></Tag00100032>
+    <Tag00100040 FieldName="PatientsSex" VR="CS">M</Tag00100040>
+    <Tag00110001 FieldName="Patientresource" VR="LT">S124564070</Tag00110001>
+    <Tag0020000d FieldName="StudyInstanceUID" VR="UI">2.16.886.104.100661.100000.8</Tag0020000d>
+    <Tag00080020 FieldName="StudyDate" VR="DA">20170615</Tag00080020>
+    <Tag00080030 FieldName="StudyTime" VR="TM">161000</Tag00080030>
+    <Tag00081030 FieldName="StudyDescription" VR="LO"></Tag00081030>
+    <Tag00200010 FieldName="StudyID" VR="SH">8</Tag00200010>
+    <Tag00080050 FieldName="AccessionNumber" VR="SH"></Tag00080050>
+    <Tag00080090 FieldName="ReferringPhysiciansName" VR="PN"></Tag00080090>
+    <Tag00090001 FieldName="Encounterresource" VR="LT"></Tag00090001>
+    <Tag0020000e FieldName="SeriesInstanceUID" VR="UI">2.16.886.104.100661.100000.25</Tag0020000e>
+    <Tag00200011 FieldName="SeriesNumber" VR="IS">25</Tag00200011>
+    <Tag00080060 FieldName="Modality" VR="CS"></Tag00080060>
+    <Tag00080021 FieldName="SeriesDate" VR="DA">20170615</Tag00080021>
+    <Tag00080031 FieldName="SeriesTime" VR="TM">161000</Tag00080031>
+    <Tag00210001 FieldName="MedicationOrderresourse" VR="LT"></Tag00210001>
+    <Tag00080016 FieldName="SOPClassUID" VR="UI">S124564070.20170621143231</Tag00080016>
+    <Tag00080018 FieldName="SOPInstanceUID" VR="UI">99</Tag00080018>
+    <Tag0027a002 FieldName="DeviceType" VR="LO"></Tag0027a002>
+    <Tag0027a001 FieldName="DeviceRecordResult" VR="LT">
+      <TEM>36.9</TEM>
+    </Tag0027a001>
+    <Tag00080012 FieldName="InstanceCreatorDate" VR="DA">20170621</Tag00080012>
+    <Tag00080014 FieldName="InstanceCreatorUID" VR="UI">12131231311</Tag00080014>
+    <Tag00080013 FieldName="InstanceCreatorTime" VR="TM">143231</Tag00080013>
+    <Tag0018a001 FieldName="ContributingEquipmentSequence" VR="LT"></Tag0018a001>
+  </SOPInstance>
+  <SOPInstance>
+    <Tag0011a001 FieldName="PatientLocation" VR="SH">ETOPO999</Tag0011a001>
+    <Tag00100010 FieldName="PatientName" VR="PN">莊忠翰</Tag00100010>
+    <Tag00100020 FieldName="PatientID" VR="LO">S124564070</Tag00100020>
+    <Tag00100030 FieldName="PatientsBirthDate" VR="DA">1992/06/13</Tag00100030>
+    <Tag00100032 FieldName="PatientsBirthTime" VR="TM"></Tag00100032>
+    <Tag00100040 FieldName="PatientsSex" VR="CS">M</Tag00100040>
+    <Tag00110001 FieldName="Patientresource" VR="LT">S124564070</Tag00110001>
+    <Tag0020000d FieldName="StudyInstanceUID" VR="UI">2.16.886.104.100661.100000.8</Tag0020000d>
+    <Tag00080020 FieldName="StudyDate" VR="DA">20170615</Tag00080020>
+    <Tag00080030 FieldName="StudyTime" VR="TM">161000</Tag00080030>
+    <Tag00081030 FieldName="StudyDescription" VR="LO"></Tag00081030>
+    <Tag00200010 FieldName="StudyID" VR="SH">8</Tag00200010>
+    <Tag00080050 FieldName="AccessionNumber" VR="SH"></Tag00080050>
+    <Tag00080090 FieldName="ReferringPhysiciansName" VR="PN"></Tag00080090>
+    <Tag00090001 FieldName="Encounterresource" VR="LT"></Tag00090001>
+    <Tag0020000e FieldName="SeriesInstanceUID" VR="UI">2.16.886.104.100661.100000.25</Tag0020000e>
+    <Tag00200011 FieldName="SeriesNumber" VR="IS">25</Tag00200011>
+    <Tag00080060 FieldName="Modality" VR="CS"></Tag00080060>
+    <Tag00080021 FieldName="SeriesDate" VR="DA">20170615</Tag00080021>
+    <Tag00080031 FieldName="SeriesTime" VR="TM">161000</Tag00080031>
+    <Tag00210001 FieldName="MedicationOrderresourse" VR="LT"></Tag00210001>
+    <Tag00080016 FieldName="SOPClassUID" VR="UI">S124564070.20170621210848</Tag00080016>
+    <Tag00080018 FieldName="SOPInstanceUID" VR="UI">109</Tag00080018>
+    <Tag0027a002 FieldName="DeviceType" VR="LO"></Tag0027a002>
+    <Tag0027a001 FieldName="DeviceRecordResult" VR="LT">
+      <TEM>36.7</TEM>
+    </Tag0027a001>
+    <Tag00080012 FieldName="InstanceCreatorDate" VR="DA">20170621</Tag00080012>
+    <Tag00080014 FieldName="InstanceCreatorUID" VR="UI">12131231311</Tag00080014>
+    <Tag00080013 FieldName="InstanceCreatorTime" VR="TM">210848</Tag00080013>
+    <Tag0018a001 FieldName="ContributingEquipmentSequence" VR="LT"></Tag0018a001>
+  </SOPInstance>
+  <SOPInstance>
+    <Tag0011a001 FieldName="PatientLocation" VR="SH">ETOPO999</Tag0011a001>
+    <Tag00100010 FieldName="PatientName" VR="PN">莊忠翰</Tag00100010>
+    <Tag00100020 FieldName="PatientID" VR="LO">S124564070</Tag00100020>
+    <Tag00100030 FieldName="PatientsBirthDate" VR="DA">1992/06/13</Tag00100030>
+    <Tag00100032 FieldName="PatientsBirthTime" VR="TM"></Tag00100032>
+    <Tag00100040 FieldName="PatientsSex" VR="CS">M</Tag00100040>
+    <Tag00110001 FieldName="Patientresource" VR="LT">S124564070</Tag00110001>
+    <Tag0020000d FieldName="StudyInstanceUID" VR="UI">2.16.886.104.100661.100000.8</Tag0020000d>
+    <Tag00080020 FieldName="StudyDate" VR="DA">20170615</Tag00080020>
+    <Tag00080030 FieldName="StudyTime" VR="TM">161000</Tag00080030>
+    <Tag00081030 FieldName="StudyDescription" VR="LO"></Tag00081030>
+    <Tag00200010 FieldName="StudyID" VR="SH">8</Tag00200010>
+    <Tag00080050 FieldName="AccessionNumber" VR="SH"></Tag00080050>
+    <Tag00080090 FieldName="ReferringPhysiciansName" VR="PN"></Tag00080090>
+    <Tag00090001 FieldName="Encounterresource" VR="LT"></Tag00090001>
+    <Tag0020000e FieldName="SeriesInstanceUID" VR="UI">2.16.886.104.100661.100000.25</Tag0020000e>
+    <Tag00200011 FieldName="SeriesNumber" VR="IS">25</Tag00200011>
+    <Tag00080060 FieldName="Modality" VR="CS"></Tag00080060>
+    <Tag00080021 FieldName="SeriesDate" VR="DA">20170615</Tag00080021>
+    <Tag00080031 FieldName="SeriesTime" VR="TM">161000</Tag00080031>
+    <Tag00210001 FieldName="MedicationOrderresourse" VR="LT"></Tag00210001>
+    <Tag00080016 FieldName="SOPClassUID" VR="UI">S124564070.20170621211025</Tag00080016>
+    <Tag00080018 FieldName="SOPInstanceUID" VR="UI">110</Tag00080018>
+    <Tag0027a002 FieldName="DeviceType" VR="LO"></Tag0027a002>
+    <Tag0027a001 FieldName="DeviceRecordResult" VR="LT">
+      <SBP>126</SBP>
+      <DBP>76</DBP>
+      <PUL>68</PUL>
+    </Tag0027a001>
+    <Tag00080012 FieldName="InstanceCreatorDate" VR="DA">20170621</Tag00080012>
+    <Tag00080014 FieldName="InstanceCreatorUID" VR="UI">12131231311</Tag00080014>
+    <Tag00080013 FieldName="InstanceCreatorTime" VR="TM">211025</Tag00080013>
+    <Tag0018a001 FieldName="ContributingEquipmentSequence" VR="LT"></Tag0018a001>
+  </SOPInstance>
+  <SOPInstance>
+    <Tag0011a001 FieldName="PatientLocation" VR="SH">ETOPO999</Tag0011a001>
+    <Tag00100010 FieldName="PatientName" VR="PN">莊忠翰</Tag00100010>
+    <Tag00100020 FieldName="PatientID" VR="LO">S124564070</Tag00100020>
+    <Tag00100030 FieldName="PatientsBirthDate" VR="DA">1992/06/13</Tag00100030>
+    <Tag00100032 FieldName="PatientsBirthTime" VR="TM"></Tag00100032>
+    <Tag00100040 FieldName="PatientsSex" VR="CS">M</Tag00100040>
+    <Tag00110001 FieldName="Patientresource" VR="LT">S124564070</Tag00110001>
+    <Tag0020000d FieldName="StudyInstanceUID" VR="UI">2.16.886.104.100661.100000.8</Tag0020000d>
+    <Tag00080020 FieldName="StudyDate" VR="DA">20170615</Tag00080020>
+    <Tag00080030 FieldName="StudyTime" VR="TM">161000</Tag00080030>
+    <Tag00081030 FieldName="StudyDescription" VR="LO"></Tag00081030>
+    <Tag00200010 FieldName="StudyID" VR="SH">8</Tag00200010>
+    <Tag00080050 FieldName="AccessionNumber" VR="SH"></Tag00080050>
+    <Tag00080090 FieldName="ReferringPhysiciansName" VR="PN"></Tag00080090>
+    <Tag00090001 FieldName="Encounterresource" VR="LT"></Tag00090001>
+    <Tag0020000e FieldName="SeriesInstanceUID" VR="UI">2.16.886.104.100661.100000.25</Tag0020000e>
+    <Tag00200011 FieldName="SeriesNumber" VR="IS">25</Tag00200011>
+    <Tag00080060 FieldName="Modality" VR="CS"></Tag00080060>
+    <Tag00080021 FieldName="SeriesDate" VR="DA">20170615</Tag00080021>
+    <Tag00080031 FieldName="SeriesTime" VR="TM">161000</Tag00080031>
+    <Tag00210001 FieldName="MedicationOrderresourse" VR="LT"></Tag00210001>
+    <Tag00080016 FieldName="SOPClassUID" VR="UI">S124564070.20170621212615</Tag00080016>
+    <Tag00080018 FieldName="SOPInstanceUID" VR="UI">112</Tag00080018>
+    <Tag0027a002 FieldName="DeviceType" VR="LO"></Tag0027a002>
+    <Tag0027a001 FieldName="DeviceRecordResult" VR="LT">
+      <TEM>36.7</TEM>
+    </Tag0027a001>
+    <Tag00080012 FieldName="InstanceCreatorDate" VR="DA">20170621</Tag00080012>
+    <Tag00080014 FieldName="InstanceCreatorUID" VR="UI">12131231311</Tag00080014>
+    <Tag00080013 FieldName="InstanceCreatorTime" VR="TM">212615</Tag00080013>
+    <Tag0018a001 FieldName="ContributingEquipmentSequence" VR="LT"></Tag0018a001>
+  </SOPInstance>
+  <SOPInstance>
+    <Tag0011a001 FieldName="PatientLocation" VR="SH">ETOPO999</Tag0011a001>
+    <Tag00100010 FieldName="PatientName" VR="PN">莊忠翰</Tag00100010>
+    <Tag00100020 FieldName="PatientID" VR="LO">S124564070</Tag00100020>
+    <Tag00100030 FieldName="PatientsBirthDate" VR="DA">1992/06/13</Tag00100030>
+    <Tag00100032 FieldName="PatientsBirthTime" VR="TM"></Tag00100032>
+    <Tag00100040 FieldName="PatientsSex" VR="CS">M</Tag00100040>
+    <Tag00110001 FieldName="Patientresource" VR="LT">S124564070</Tag00110001>
+    <Tag0020000d FieldName="StudyInstanceUID" VR="UI">2.16.886.104.100661.100000.8</Tag0020000d>
+    <Tag00080020 FieldName="StudyDate" VR="DA">20170615</Tag00080020>
+    <Tag00080030 FieldName="StudyTime" VR="TM">161000</Tag00080030>
+    <Tag00081030 FieldName="StudyDescription" VR="LO"></Tag00081030>
+    <Tag00200010 FieldName="StudyID" VR="SH">8</Tag00200010>
+    <Tag00080050 FieldName="AccessionNumber" VR="SH"></Tag00080050>
+    <Tag00080090 FieldName="ReferringPhysiciansName" VR="PN"></Tag00080090>
+    <Tag00090001 FieldName="Encounterresource" VR="LT"></Tag00090001>
+    <Tag0020000e FieldName="SeriesInstanceUID" VR="UI">2.16.886.104.100661.100000.25</Tag0020000e>
+    <Tag00200011 FieldName="SeriesNumber" VR="IS">25</Tag00200011>
+    <Tag00080060 FieldName="Modality" VR="CS"></Tag00080060>
+    <Tag00080021 FieldName="SeriesDate" VR="DA">20170615</Tag00080021>
+    <Tag00080031 FieldName="SeriesTime" VR="TM">161000</Tag00080031>
+    <Tag00210001 FieldName="MedicationOrderresourse" VR="LT"></Tag00210001>
+    <Tag00080016 FieldName="SOPClassUID" VR="UI">S124564070.20170621221010</Tag00080016>
+    <Tag00080018 FieldName="SOPInstanceUID" VR="UI">113</Tag00080018>
+    <Tag0027a002 FieldName="DeviceType" VR="LO"></Tag0027a002>
+    <Tag0027a001 FieldName="DeviceRecordResult" VR="LT">
+      <TEM>36.6</TEM>
+    </Tag0027a001>
+    <Tag00080012 FieldName="InstanceCreatorDate" VR="DA">20170621</Tag00080012>
+    <Tag00080014 FieldName="InstanceCreatorUID" VR="UI">12131231311</Tag00080014>
+    <Tag00080013 FieldName="InstanceCreatorTime" VR="TM">221010</Tag00080013>
+    <Tag0018a001 FieldName="ContributingEquipmentSequence" VR="LT"></Tag0018a001>
+  </SOPInstance>
+  <SOPInstance>
+    <Tag0011a001 FieldName="PatientLocation" VR="SH">ETOPO999</Tag0011a001>
+    <Tag00100010 FieldName="PatientName" VR="PN">莊忠翰</Tag00100010>
+    <Tag00100020 FieldName="PatientID" VR="LO">S124564070</Tag00100020>
+    <Tag00100030 FieldName="PatientsBirthDate" VR="DA">1992/06/13</Tag00100030>
+    <Tag00100032 FieldName="PatientsBirthTime" VR="TM"></Tag00100032>
+    <Tag00100040 FieldName="PatientsSex" VR="CS">M</Tag00100040>
+    <Tag00110001 FieldName="Patientresource" VR="LT">S124564070</Tag00110001>
+    <Tag0020000d FieldName="StudyInstanceUID" VR="UI">2.16.886.104.100661.100000.8</Tag0020000d>
+    <Tag00080020 FieldName="StudyDate" VR="DA">20170615</Tag00080020>
+    <Tag00080030 FieldName="StudyTime" VR="TM">161000</Tag00080030>
+    <Tag00081030 FieldName="StudyDescription" VR="LO"></Tag00081030>
+    <Tag00200010 FieldName="StudyID" VR="SH">8</Tag00200010>
+    <Tag00080050 FieldName="AccessionNumber" VR="SH"></Tag00080050>
+    <Tag00080090 FieldName="ReferringPhysiciansName" VR="PN"></Tag00080090>
+    <Tag00090001 FieldName="Encounterresource" VR="LT"></Tag00090001>
+    <Tag0020000e FieldName="SeriesInstanceUID" VR="UI">2.16.886.104.100661.100000.25</Tag0020000e>
+    <Tag00200011 FieldName="SeriesNumber" VR="IS">25</Tag00200011>
+    <Tag00080060 FieldName="Modality" VR="CS"></Tag00080060>
+    <Tag00080021 FieldName="SeriesDate" VR="DA">20170615</Tag00080021>
+    <Tag00080031 FieldName="SeriesTime" VR="TM">161000</Tag00080031>
+    <Tag00210001 FieldName="MedicationOrderresourse" VR="LT"></Tag00210001>
+    <Tag00080016 FieldName="SOPClassUID" VR="UI">S124564070.20170622202657</Tag00080016>
+    <Tag00080018 FieldName="SOPInstanceUID" VR="UI">119</Tag00080018>
+    <Tag0027a002 FieldName="DeviceType" VR="LO"></Tag0027a002>
+    <Tag0027a001 FieldName="DeviceRecordResult" VR="LT">
+      <TEM>36.5</TEM>
+    </Tag0027a001>
+    <Tag00080012 FieldName="InstanceCreatorDate" VR="DA">20170622</Tag00080012>
+    <Tag00080014 FieldName="InstanceCreatorUID" VR="UI">12131231311</Tag00080014>
+    <Tag00080013 FieldName="InstanceCreatorTime" VR="TM">202657</Tag00080013>
+    <Tag0018a001 FieldName="ContributingEquipmentSequence" VR="LT"></Tag0018a001>
+  </SOPInstance>
+  <SOPInstance>
+    <Tag0011a001 FieldName="PatientLocation" VR="SH">ETOPO999</Tag0011a001>
+    <Tag00100010 FieldName="PatientName" VR="PN">莊忠翰</Tag00100010>
+    <Tag00100020 FieldName="PatientID" VR="LO">S124564070</Tag00100020>
+    <Tag00100030 FieldName="PatientsBirthDate" VR="DA">1992/06/13</Tag00100030>
+    <Tag00100032 FieldName="PatientsBirthTime" VR="TM"></Tag00100032>
+    <Tag00100040 FieldName="PatientsSex" VR="CS">M</Tag00100040>
+    <Tag00110001 FieldName="Patientresource" VR="LT">S124564070</Tag00110001>
+    <Tag0020000d FieldName="StudyInstanceUID" VR="UI">2.16.886.104.100661.100000.8</Tag0020000d>
+    <Tag00080020 FieldName="StudyDate" VR="DA">20170615</Tag00080020>
+    <Tag00080030 FieldName="StudyTime" VR="TM">161000</Tag00080030>
+    <Tag00081030 FieldName="StudyDescription" VR="LO"></Tag00081030>
+    <Tag00200010 FieldName="StudyID" VR="SH">8</Tag00200010>
+    <Tag00080050 FieldName="AccessionNumber" VR="SH"></Tag00080050>
+    <Tag00080090 FieldName="ReferringPhysiciansName" VR="PN"></Tag00080090>
+    <Tag00090001 FieldName="Encounterresource" VR="LT"></Tag00090001>
+    <Tag0020000e FieldName="SeriesInstanceUID" VR="UI">2.16.886.104.100661.100000.25</Tag0020000e>
+    <Tag00200011 FieldName="SeriesNumber" VR="IS">25</Tag00200011>
+    <Tag00080060 FieldName="Modality" VR="CS"></Tag00080060>
+    <Tag00080021 FieldName="SeriesDate" VR="DA">20170615</Tag00080021>
+    <Tag00080031 FieldName="SeriesTime" VR="TM">161000</Tag00080031>
+    <Tag00210001 FieldName="MedicationOrderresourse" VR="LT"></Tag00210001>
+    <Tag00080016 FieldName="SOPClassUID" VR="UI">S124564070.20170622202838</Tag00080016>
+    <Tag00080018 FieldName="SOPInstanceUID" VR="UI">120</Tag00080018>
+    <Tag0027a002 FieldName="DeviceType" VR="LO"></Tag0027a002>
+    <Tag0027a001 FieldName="DeviceRecordResult" VR="LT">
+      <SBP>145</SBP>
+      <DBP>88</DBP>
+      <PUL>69</PUL>
+    </Tag0027a001>
+    <Tag00080012 FieldName="InstanceCreatorDate" VR="DA">20170622</Tag00080012>
+    <Tag00080014 FieldName="InstanceCreatorUID" VR="UI">12131231311</Tag00080014>
+    <Tag00080013 FieldName="InstanceCreatorTime" VR="TM">202838</Tag00080013>
+    <Tag0018a001 FieldName="ContributingEquipmentSequence" VR="LT"></Tag0018a001>
+  </SOPInstance>
+  <SOPInstance>
+    <Tag0011a001 FieldName="PatientLocation" VR="SH">ETOPO999</Tag0011a001>
+    <Tag00100010 FieldName="PatientName" VR="PN">莊忠翰</Tag00100010>
+    <Tag00100020 FieldName="PatientID" VR="LO">S124564070</Tag00100020>
+    <Tag00100030 FieldName="PatientsBirthDate" VR="DA">1992/06/13</Tag00100030>
+    <Tag00100032 FieldName="PatientsBirthTime" VR="TM"></Tag00100032>
+    <Tag00100040 FieldName="PatientsSex" VR="CS">M</Tag00100040>
+    <Tag00110001 FieldName="Patientresource" VR="LT">S124564070</Tag00110001>
+    <Tag0020000d FieldName="StudyInstanceUID" VR="UI">2.16.886.104.100661.100000.8</Tag0020000d>
+    <Tag00080020 FieldName="StudyDate" VR="DA">20170615</Tag00080020>
+    <Tag00080030 FieldName="StudyTime" VR="TM">161000</Tag00080030>
+    <Tag00081030 FieldName="StudyDescription" VR="LO"></Tag00081030>
+    <Tag00200010 FieldName="StudyID" VR="SH">8</Tag00200010>
+    <Tag00080050 FieldName="AccessionNumber" VR="SH"></Tag00080050>
+    <Tag00080090 FieldName="ReferringPhysiciansName" VR="PN"></Tag00080090>
+    <Tag00090001 FieldName="Encounterresource" VR="LT"></Tag00090001>
+    <Tag0020000e FieldName="SeriesInstanceUID" VR="UI">2.16.886.104.100661.100000.25</Tag0020000e>
+    <Tag00200011 FieldName="SeriesNumber" VR="IS">25</Tag00200011>
+    <Tag00080060 FieldName="Modality" VR="CS"></Tag00080060>
+    <Tag00080021 FieldName="SeriesDate" VR="DA">20170615</Tag00080021>
+    <Tag00080031 FieldName="SeriesTime" VR="TM">161000</Tag00080031>
+    <Tag00210001 FieldName="MedicationOrderresourse" VR="LT"></Tag00210001>
+    <Tag00080016 FieldName="SOPClassUID" VR="UI">S124564070.20170626211214</Tag00080016>
+    <Tag00080018 FieldName="SOPInstanceUID" VR="UI">144</Tag00080018>
+    <Tag0027a002 FieldName="DeviceType" VR="LO"></Tag0027a002>
+    <Tag0027a001 FieldName="DeviceRecordResult" VR="LT">
+      <TEM>36.7</TEM>
+    </Tag0027a001>
+    <Tag00080012 FieldName="InstanceCreatorDate" VR="DA">20170626</Tag00080012>
+    <Tag00080014 FieldName="InstanceCreatorUID" VR="UI">12131231311</Tag00080014>
+    <Tag00080013 FieldName="InstanceCreatorTime" VR="TM">211214</Tag00080013>
+    <Tag0018a001 FieldName="ContributingEquipmentSequence" VR="LT"></Tag0018a001>
+  </SOPInstance>
+  <SOPInstance>
+    <Tag0011a001 FieldName="PatientLocation" VR="SH">ETOPO999</Tag0011a001>
+    <Tag00100010 FieldName="PatientName" VR="PN">莊忠翰</Tag00100010>
+    <Tag00100020 FieldName="PatientID" VR="LO">S124564070</Tag00100020>
+    <Tag00100030 FieldName="PatientsBirthDate" VR="DA">1992/06/13</Tag00100030>
+    <Tag00100032 FieldName="PatientsBirthTime" VR="TM"></Tag00100032>
+    <Tag00100040 FieldName="PatientsSex" VR="CS">M</Tag00100040>
+    <Tag00110001 FieldName="Patientresource" VR="LT">S124564070</Tag00110001>
+    <Tag0020000d FieldName="StudyInstanceUID" VR="UI">2.16.886.104.100661.100000.8</Tag0020000d>
+    <Tag00080020 FieldName="StudyDate" VR="DA">20170615</Tag00080020>
+    <Tag00080030 FieldName="StudyTime" VR="TM">161000</Tag00080030>
+    <Tag00081030 FieldName="StudyDescription" VR="LO"></Tag00081030>
+    <Tag00200010 FieldName="StudyID" VR="SH">8</Tag00200010>
+    <Tag00080050 FieldName="AccessionNumber" VR="SH"></Tag00080050>
+    <Tag00080090 FieldName="ReferringPhysiciansName" VR="PN"></Tag00080090>
+    <Tag00090001 FieldName="Encounterresource" VR="LT"></Tag00090001>
+    <Tag0020000e FieldName="SeriesInstanceUID" VR="UI">2.16.886.104.100661.100000.25</Tag0020000e>
+    <Tag00200011 FieldName="SeriesNumber" VR="IS">25</Tag00200011>
+    <Tag00080060 FieldName="Modality" VR="CS"></Tag00080060>
+    <Tag00080021 FieldName="SeriesDate" VR="DA">20170615</Tag00080021>
+    <Tag00080031 FieldName="SeriesTime" VR="TM">161000</Tag00080031>
+    <Tag00210001 FieldName="MedicationOrderresourse" VR="LT"></Tag00210001>
+    <Tag00080016 FieldName="SOPClassUID" VR="UI">S124564070.20170626211339</Tag00080016>
+    <Tag00080018 FieldName="SOPInstanceUID" VR="UI">145</Tag00080018>
+    <Tag0027a002 FieldName="DeviceType" VR="LO"></Tag0027a002>
+    <Tag0027a001 FieldName="DeviceRecordResult" VR="LT">
+      <SBP>129</SBP>
+      <DBP>85</DBP>
+      <PUL>66</PUL>
+    </Tag0027a001>
+    <Tag00080012 FieldName="InstanceCreatorDate" VR="DA">20170626</Tag00080012>
+    <Tag00080014 FieldName="InstanceCreatorUID" VR="UI">12131231311</Tag00080014>
+    <Tag00080013 FieldName="InstanceCreatorTime" VR="TM">211339</Tag00080013>
+    <Tag0018a001 FieldName="ContributingEquipmentSequence" VR="LT"></Tag0018a001>
+  </SOPInstance>
+  <SOPInstance>
+    <Tag0011a001 FieldName="PatientLocation" VR="SH">ETOPO999</Tag0011a001>
+    <Tag00100010 FieldName="PatientName" VR="PN">莊忠翰</Tag00100010>
+    <Tag00100020 FieldName="PatientID" VR="LO">S124564070</Tag00100020>
+    <Tag00100030 FieldName="PatientsBirthDate" VR="DA">1992/06/13</Tag00100030>
+    <Tag00100032 FieldName="PatientsBirthTime" VR="TM"></Tag00100032>
+    <Tag00100040 FieldName="PatientsSex" VR="CS">M</Tag00100040>
+    <Tag00110001 FieldName="Patientresource" VR="LT">S124564070</Tag00110001>
+    <Tag0020000d FieldName="StudyInstanceUID" VR="UI">2.16.886.104.100661.100000.8</Tag0020000d>
+    <Tag00080020 FieldName="StudyDate" VR="DA">20170615</Tag00080020>
+    <Tag00080030 FieldName="StudyTime" VR="TM">161000</Tag00080030>
+    <Tag00081030 FieldName="StudyDescription" VR="LO"></Tag00081030>
+    <Tag00200010 FieldName="StudyID" VR="SH">8</Tag00200010>
+    <Tag00080050 FieldName="AccessionNumber" VR="SH"></Tag00080050>
+    <Tag00080090 FieldName="ReferringPhysiciansName" VR="PN"></Tag00080090>
+    <Tag00090001 FieldName="Encounterresource" VR="LT"></Tag00090001>
+    <Tag0020000e FieldName="SeriesInstanceUID" VR="UI">2.16.886.104.100661.100000.25</Tag0020000e>
+    <Tag00200011 FieldName="SeriesNumber" VR="IS">25</Tag00200011>
+    <Tag00080060 FieldName="Modality" VR="CS"></Tag00080060>
+    <Tag00080021 FieldName="SeriesDate" VR="DA">20170615</Tag00080021>
+    <Tag00080031 FieldName="SeriesTime" VR="TM">161000</Tag00080031>
+    <Tag00210001 FieldName="MedicationOrderresourse" VR="LT"></Tag00210001>
+    <Tag00080016 FieldName="SOPClassUID" VR="UI">S124564070.20170627211420</Tag00080016>
+    <Tag00080018 FieldName="SOPInstanceUID" VR="UI">149</Tag00080018>
+    <Tag0027a002 FieldName="DeviceType" VR="LO"></Tag0027a002>
+    <Tag0027a001 FieldName="DeviceRecordResult" VR="LT">
+      <TEM>36.5</TEM>
+    </Tag0027a001>
+    <Tag00080012 FieldName="InstanceCreatorDate" VR="DA">20170627</Tag00080012>
+    <Tag00080014 FieldName="InstanceCreatorUID" VR="UI">12131231311</Tag00080014>
+    <Tag00080013 FieldName="InstanceCreatorTime" VR="TM">211420</Tag00080013>
+    <Tag0018a001 FieldName="ContributingEquipmentSequence" VR="LT"></Tag0018a001>
+  </SOPInstance>
+  <SOPInstance>
+    <Tag0011a001 FieldName="PatientLocation" VR="SH">ETOPO999</Tag0011a001>
+    <Tag00100010 FieldName="PatientName" VR="PN">莊忠翰</Tag00100010>
+    <Tag00100020 FieldName="PatientID" VR="LO">S124564070</Tag00100020>
+    <Tag00100030 FieldName="PatientsBirthDate" VR="DA">1992/06/13</Tag00100030>
+    <Tag00100032 FieldName="PatientsBirthTime" VR="TM"></Tag00100032>
+    <Tag00100040 FieldName="PatientsSex" VR="CS">M</Tag00100040>
+    <Tag00110001 FieldName="Patientresource" VR="LT">S124564070</Tag00110001>
+    <Tag0020000d FieldName="StudyInstanceUID" VR="UI">2.16.886.104.100661.100000.8</Tag0020000d>
+    <Tag00080020 FieldName="StudyDate" VR="DA">20170615</Tag00080020>
+    <Tag00080030 FieldName="StudyTime" VR="TM">161000</Tag00080030>
+    <Tag00081030 FieldName="StudyDescription" VR="LO"></Tag00081030>
+    <Tag00200010 FieldName="StudyID" VR="SH">8</Tag00200010>
+    <Tag00080050 FieldName="AccessionNumber" VR="SH"></Tag00080050>
+    <Tag00080090 FieldName="ReferringPhysiciansName" VR="PN"></Tag00080090>
+    <Tag00090001 FieldName="Encounterresource" VR="LT"></Tag00090001>
+    <Tag0020000e FieldName="SeriesInstanceUID" VR="UI">2.16.886.104.100661.100000.25</Tag0020000e>
+    <Tag00200011 FieldName="SeriesNumber" VR="IS">25</Tag00200011>
+    <Tag00080060 FieldName="Modality" VR="CS"></Tag00080060>
+    <Tag00080021 FieldName="SeriesDate" VR="DA">20170615</Tag00080021>
+    <Tag00080031 FieldName="SeriesTime" VR="TM">161000</Tag00080031>
+    <Tag00210001 FieldName="MedicationOrderresourse" VR="LT"></Tag00210001>
+    <Tag00080016 FieldName="SOPClassUID" VR="UI">S124564070.20170627213007</Tag00080016>
+    <Tag00080018 FieldName="SOPInstanceUID" VR="UI">150</Tag00080018>
+    <Tag0027a002 FieldName="DeviceType" VR="LO"></Tag0027a002>
+    <Tag0027a001 FieldName="DeviceRecordResult" VR="LT">
+      <SBP>134</SBP>
+      <DBP>91</DBP>
+      <PUL>65</PUL>
+    </Tag0027a001>
+    <Tag00080012 FieldName="InstanceCreatorDate" VR="DA">20170627</Tag00080012>
+    <Tag00080014 FieldName="InstanceCreatorUID" VR="UI">12131231311</Tag00080014>
+    <Tag00080013 FieldName="InstanceCreatorTime" VR="TM">213007</Tag00080013>
+    <Tag0018a001 FieldName="ContributingEquipmentSequence" VR="LT"></Tag0018a001>
+  </SOPInstance>
+  <SOPInstance>
+    <Tag0011a001 FieldName="PatientLocation" VR="SH">ETOPO999</Tag0011a001>
+    <Tag00100010 FieldName="PatientName" VR="PN">莊忠翰</Tag00100010>
+    <Tag00100020 FieldName="PatientID" VR="LO">S124564070</Tag00100020>
+    <Tag00100030 FieldName="PatientsBirthDate" VR="DA">1992/06/13</Tag00100030>
+    <Tag00100032 FieldName="PatientsBirthTime" VR="TM"></Tag00100032>
+    <Tag00100040 FieldName="PatientsSex" VR="CS">M</Tag00100040>
+    <Tag00110001 FieldName="Patientresource" VR="LT">S124564070</Tag00110001>
+    <Tag0020000d FieldName="StudyInstanceUID" VR="UI">2.16.886.104.100661.100000.8</Tag0020000d>
+    <Tag00080020 FieldName="StudyDate" VR="DA">20170615</Tag00080020>
+    <Tag00080030 FieldName="StudyTime" VR="TM">161000</Tag00080030>
+    <Tag00081030 FieldName="StudyDescription" VR="LO"></Tag00081030>
+    <Tag00200010 FieldName="StudyID" VR="SH">8</Tag00200010>
+    <Tag00080050 FieldName="AccessionNumber" VR="SH"></Tag00080050>
+    <Tag00080090 FieldName="ReferringPhysiciansName" VR="PN"></Tag00080090>
+    <Tag00090001 FieldName="Encounterresource" VR="LT"></Tag00090001>
+    <Tag0020000e FieldName="SeriesInstanceUID" VR="UI">2.16.886.104.100661.100000.25</Tag0020000e>
+    <Tag00200011 FieldName="SeriesNumber" VR="IS">25</Tag00200011>
+    <Tag00080060 FieldName="Modality" VR="CS"></Tag00080060>
+    <Tag00080021 FieldName="SeriesDate" VR="DA">20170615</Tag00080021>
+    <Tag00080031 FieldName="SeriesTime" VR="TM">161000</Tag00080031>
+    <Tag00210001 FieldName="MedicationOrderresourse" VR="LT"></Tag00210001>
+    <Tag00080016 FieldName="SOPClassUID" VR="UI">S124564070.20170627222402</Tag00080016>
+    <Tag00080018 FieldName="SOPInstanceUID" VR="UI">152</Tag00080018>
+    <Tag0027a002 FieldName="DeviceType" VR="LO"></Tag0027a002>
+    <Tag0027a001 FieldName="DeviceRecordResult" VR="LT">
+      <TEM>36.6</TEM>
+    </Tag0027a001>
+    <Tag00080012 FieldName="InstanceCreatorDate" VR="DA">20170627</Tag00080012>
+    <Tag00080014 FieldName="InstanceCreatorUID" VR="UI">12131231311</Tag00080014>
+    <Tag00080013 FieldName="InstanceCreatorTime" VR="TM">222402</Tag00080013>
+    <Tag0018a001 FieldName="ContributingEquipmentSequence" VR="LT"></Tag0018a001>
+  </SOPInstance>
+  <SOPInstance>
+    <Tag0011a001 FieldName="PatientLocation" VR="SH">ETOPO999</Tag0011a001>
+    <Tag00100010 FieldName="PatientName" VR="PN">莊忠翰</Tag00100010>
+    <Tag00100020 FieldName="PatientID" VR="LO">S124564070</Tag00100020>
+    <Tag00100030 FieldName="PatientsBirthDate" VR="DA">1992/06/13</Tag00100030>
+    <Tag00100032 FieldName="PatientsBirthTime" VR="TM"></Tag00100032>
+    <Tag00100040 FieldName="PatientsSex" VR="CS">M</Tag00100040>
+    <Tag00110001 FieldName="Patientresource" VR="LT">S124564070</Tag00110001>
+    <Tag0020000d FieldName="StudyInstanceUID" VR="UI">2.16.886.104.100661.100000.8</Tag0020000d>
+    <Tag00080020 FieldName="StudyDate" VR="DA">20170615</Tag00080020>
+    <Tag00080030 FieldName="StudyTime" VR="TM">161000</Tag00080030>
+    <Tag00081030 FieldName="StudyDescription" VR="LO"></Tag00081030>
+    <Tag00200010 FieldName="StudyID" VR="SH">8</Tag00200010>
+    <Tag00080050 FieldName="AccessionNumber" VR="SH"></Tag00080050>
+    <Tag00080090 FieldName="ReferringPhysiciansName" VR="PN"></Tag00080090>
+    <Tag00090001 FieldName="Encounterresource" VR="LT"></Tag00090001>
+    <Tag0020000e FieldName="SeriesInstanceUID" VR="UI">2.16.886.104.100661.100000.25</Tag0020000e>
+    <Tag00200011 FieldName="SeriesNumber" VR="IS">25</Tag00200011>
+    <Tag00080060 FieldName="Modality" VR="CS"></Tag00080060>
+    <Tag00080021 FieldName="SeriesDate" VR="DA">20170615</Tag00080021>
+    <Tag00080031 FieldName="SeriesTime" VR="TM">161000</Tag00080031>
+    <Tag00210001 FieldName="MedicationOrderresourse" VR="LT"></Tag00210001>
+    <Tag00080016 FieldName="SOPClassUID" VR="UI">S124564070.20170628081233</Tag00080016>
+    <Tag00080018 FieldName="SOPInstanceUID" VR="UI">183</Tag00080018>
+    <Tag0027a002 FieldName="DeviceType" VR="LO"></Tag0027a002>
+    <Tag0027a001 FieldName="DeviceRecordResult" VR="LT">
+      <TEM>36.9</TEM>
+    </Tag0027a001>
+    <Tag00080012 FieldName="InstanceCreatorDate" VR="DA">20170628</Tag00080012>
+    <Tag00080014 FieldName="InstanceCreatorUID" VR="UI">12131231311</Tag00080014>
+    <Tag00080013 FieldName="InstanceCreatorTime" VR="TM">081233</Tag00080013>
+    <Tag0018a001 FieldName="ContributingEquipmentSequence" VR="LT"></Tag0018a001>
+  </SOPInstance>
+  <SOPInstance>
+    <Tag0011a001 FieldName="PatientLocation" VR="SH">ETOPO999</Tag0011a001>
+    <Tag00100010 FieldName="PatientName" VR="PN">莊忠翰</Tag00100010>
+    <Tag00100020 FieldName="PatientID" VR="LO">S124564070</Tag00100020>
+    <Tag00100030 FieldName="PatientsBirthDate" VR="DA">1992/06/13</Tag00100030>
+    <Tag00100032 FieldName="PatientsBirthTime" VR="TM"></Tag00100032>
+    <Tag00100040 FieldName="PatientsSex" VR="CS">M</Tag00100040>
+    <Tag00110001 FieldName="Patientresource" VR="LT">S124564070</Tag00110001>
+    <Tag0020000d FieldName="StudyInstanceUID" VR="UI">2.16.886.104.100661.100000.8</Tag0020000d>
+    <Tag00080020 FieldName="StudyDate" VR="DA">20170615</Tag00080020>
+    <Tag00080030 FieldName="StudyTime" VR="TM">161000</Tag00080030>
+    <Tag00081030 FieldName="StudyDescription" VR="LO"></Tag00081030>
+    <Tag00200010 FieldName="StudyID" VR="SH">8</Tag00200010>
+    <Tag00080050 FieldName="AccessionNumber" VR="SH"></Tag00080050>
+    <Tag00080090 FieldName="ReferringPhysiciansName" VR="PN"></Tag00080090>
+    <Tag00090001 FieldName="Encounterresource" VR="LT"></Tag00090001>
+    <Tag0020000e FieldName="SeriesInstanceUID" VR="UI">2.16.886.104.100661.100000.25</Tag0020000e>
+    <Tag00200011 FieldName="SeriesNumber" VR="IS">25</Tag00200011>
+    <Tag00080060 FieldName="Modality" VR="CS"></Tag00080060>
+    <Tag00080021 FieldName="SeriesDate" VR="DA">20170615</Tag00080021>
+    <Tag00080031 FieldName="SeriesTime" VR="TM">161000</Tag00080031>
+    <Tag00210001 FieldName="MedicationOrderresourse" VR="LT"></Tag00210001>
+    <Tag00080016 FieldName="SOPClassUID" VR="UI">S124564070.20170628081346</Tag00080016>
+    <Tag00080018 FieldName="SOPInstanceUID" VR="UI">184</Tag00080018>
+    <Tag0027a002 FieldName="DeviceType" VR="LO"></Tag0027a002>
+    <Tag0027a001 FieldName="DeviceRecordResult" VR="LT">
+      <SBP>141</SBP>
+      <DBP>83</DBP>
+      <PUL>68</PUL>
+    </Tag0027a001>
+    <Tag00080012 FieldName="InstanceCreatorDate" VR="DA">20170628</Tag00080012>
+    <Tag00080014 FieldName="InstanceCreatorUID" VR="UI">12131231311</Tag00080014>
+    <Tag00080013 FieldName="InstanceCreatorTime" VR="TM">081346</Tag00080013>
+    <Tag0018a001 FieldName="ContributingEquipmentSequence" VR="LT"></Tag0018a001>
+  </SOPInstance>
+  <SOPInstance>
+    <Tag0011a001 FieldName="PatientLocation" VR="SH">ETOPO999</Tag0011a001>
+    <Tag00100010 FieldName="PatientName" VR="PN">莊忠翰</Tag00100010>
+    <Tag00100020 FieldName="PatientID" VR="LO">S124564070</Tag00100020>
+    <Tag00100030 FieldName="PatientsBirthDate" VR="DA">1992/06/13</Tag00100030>
+    <Tag00100032 FieldName="PatientsBirthTime" VR="TM"></Tag00100032>
+    <Tag00100040 FieldName="PatientsSex" VR="CS">M</Tag00100040>
+    <Tag00110001 FieldName="Patientresource" VR="LT">S124564070</Tag00110001>
+    <Tag0020000d FieldName="StudyInstanceUID" VR="UI">2.16.886.104.100661.100000.8</Tag0020000d>
+    <Tag00080020 FieldName="StudyDate" VR="DA">20170615</Tag00080020>
+    <Tag00080030 FieldName="StudyTime" VR="TM">161000</Tag00080030>
+    <Tag00081030 FieldName="StudyDescription" VR="LO"></Tag00081030>
+    <Tag00200010 FieldName="StudyID" VR="SH">8</Tag00200010>
+    <Tag00080050 FieldName="AccessionNumber" VR="SH"></Tag00080050>
+    <Tag00080090 FieldName="ReferringPhysiciansName" VR="PN"></Tag00080090>
+    <Tag00090001 FieldName="Encounterresource" VR="LT"></Tag00090001>
+    <Tag0020000e FieldName="SeriesInstanceUID" VR="UI">2.16.886.104.100661.100000.25</Tag0020000e>
+    <Tag00200011 FieldName="SeriesNumber" VR="IS">25</Tag00200011>
+    <Tag00080060 FieldName="Modality" VR="CS"></Tag00080060>
+    <Tag00080021 FieldName="SeriesDate" VR="DA">20170615</Tag00080021>
+    <Tag00080031 FieldName="SeriesTime" VR="TM">161000</Tag00080031>
+    <Tag00210001 FieldName="MedicationOrderresourse" VR="LT"></Tag00210001>
+    <Tag00080016 FieldName="SOPClassUID" VR="UI">S124564070.20170628094115</Tag00080016>
+    <Tag00080018 FieldName="SOPInstanceUID" VR="UI">187</Tag00080018>
+    <Tag0027a002 FieldName="DeviceType" VR="LO"></Tag0027a002>
+    <Tag0027a001 FieldName="DeviceRecordResult" VR="LT">
+      <TEM>36.9</TEM>
+    </Tag0027a001>
+    <Tag00080012 FieldName="InstanceCreatorDate" VR="DA">20170628</Tag00080012>
+    <Tag00080014 FieldName="InstanceCreatorUID" VR="UI">12131231311</Tag00080014>
+    <Tag00080013 FieldName="InstanceCreatorTime" VR="TM">094115</Tag00080013>
+    <Tag0018a001 FieldName="ContributingEquipmentSequence" VR="LT"></Tag0018a001>
+  </SOPInstance>
+  <SOPInstance>
+    <Tag0011a001 FieldName="PatientLocation" VR="SH">ETOPO999</Tag0011a001>
+    <Tag00100010 FieldName="PatientName" VR="PN">莊忠翰</Tag00100010>
+    <Tag00100020 FieldName="PatientID" VR="LO">S124564070</Tag00100020>
+    <Tag00100030 FieldName="PatientsBirthDate" VR="DA">1992/06/13</Tag00100030>
+    <Tag00100032 FieldName="PatientsBirthTime" VR="TM"></Tag00100032>
+    <Tag00100040 FieldName="PatientsSex" VR="CS">M</Tag00100040>
+    <Tag00110001 FieldName="Patientresource" VR="LT">S124564070</Tag00110001>
+    <Tag0020000d FieldName="StudyInstanceUID" VR="UI">2.16.886.104.100661.100000.8</Tag0020000d>
+    <Tag00080020 FieldName="StudyDate" VR="DA">20170615</Tag00080020>
+    <Tag00080030 FieldName="StudyTime" VR="TM">161000</Tag00080030>
+    <Tag00081030 FieldName="StudyDescription" VR="LO"></Tag00081030>
+    <Tag00200010 FieldName="StudyID" VR="SH">8</Tag00200010>
+    <Tag00080050 FieldName="AccessionNumber" VR="SH"></Tag00080050>
+    <Tag00080090 FieldName="ReferringPhysiciansName" VR="PN"></Tag00080090>
+    <Tag00090001 FieldName="Encounterresource" VR="LT"></Tag00090001>
+    <Tag0020000e FieldName="SeriesInstanceUID" VR="UI">2.16.886.104.100661.100000.25</Tag0020000e>
+    <Tag00200011 FieldName="SeriesNumber" VR="IS">25</Tag00200011>
+    <Tag00080060 FieldName="Modality" VR="CS"></Tag00080060>
+    <Tag00080021 FieldName="SeriesDate" VR="DA">20170615</Tag00080021>
+    <Tag00080031 FieldName="SeriesTime" VR="TM">161000</Tag00080031>
+    <Tag00210001 FieldName="MedicationOrderresourse" VR="LT"></Tag00210001>
+    <Tag00080016 FieldName="SOPClassUID" VR="UI">S124564070.20170628094428</Tag00080016>
+    <Tag00080018 FieldName="SOPInstanceUID" VR="UI">188</Tag00080018>
+    <Tag0027a002 FieldName="DeviceType" VR="LO"></Tag0027a002>
+    <Tag0027a001 FieldName="DeviceRecordResult" VR="LT">
+      <SBP>138</SBP>
+      <DBP>87</DBP>
+      <PUL>75</PUL>
+    </Tag0027a001>
+    <Tag00080012 FieldName="InstanceCreatorDate" VR="DA">20170628</Tag00080012>
+    <Tag00080014 FieldName="InstanceCreatorUID" VR="UI">12131231311</Tag00080014>
+    <Tag00080013 FieldName="InstanceCreatorTime" VR="TM">094428</Tag00080013>
+    <Tag0018a001 FieldName="ContributingEquipmentSequence" VR="LT"></Tag0018a001>
+  </SOPInstance>
+  <SOPInstance>
+    <Tag0011a001 FieldName="PatientLocation" VR="SH">ETOPO999</Tag0011a001>
+    <Tag00100010 FieldName="PatientName" VR="PN">莊忠翰</Tag00100010>
+    <Tag00100020 FieldName="PatientID" VR="LO">S124564070</Tag00100020>
+    <Tag00100030 FieldName="PatientsBirthDate" VR="DA">1992/06/13</Tag00100030>
+    <Tag00100032 FieldName="PatientsBirthTime" VR="TM"></Tag00100032>
+    <Tag00100040 FieldName="PatientsSex" VR="CS">M</Tag00100040>
+    <Tag00110001 FieldName="Patientresource" VR="LT">S124564070</Tag00110001>
+    <Tag0020000d FieldName="StudyInstanceUID" VR="UI">2.16.886.104.100661.100000.8</Tag0020000d>
+    <Tag00080020 FieldName="StudyDate" VR="DA">20170615</Tag00080020>
+    <Tag00080030 FieldName="StudyTime" VR="TM">161000</Tag00080030>
+    <Tag00081030 FieldName="StudyDescription" VR="LO"></Tag00081030>
+    <Tag00200010 FieldName="StudyID" VR="SH">8</Tag00200010>
+    <Tag00080050 FieldName="AccessionNumber" VR="SH"></Tag00080050>
+    <Tag00080090 FieldName="ReferringPhysiciansName" VR="PN"></Tag00080090>
+    <Tag00090001 FieldName="Encounterresource" VR="LT"></Tag00090001>
+    <Tag0020000e FieldName="SeriesInstanceUID" VR="UI">2.16.886.104.100661.100000.25</Tag0020000e>
+    <Tag00200011 FieldName="SeriesNumber" VR="IS">25</Tag00200011>
+    <Tag00080060 FieldName="Modality" VR="CS"></Tag00080060>
+    <Tag00080021 FieldName="SeriesDate" VR="DA">20170615</Tag00080021>
+    <Tag00080031 FieldName="SeriesTime" VR="TM">161000</Tag00080031>
+    <Tag00210001 FieldName="MedicationOrderresourse" VR="LT"></Tag00210001>
+    <Tag00080016 FieldName="SOPClassUID" VR="UI">S124564070.20170628101708</Tag00080016>
+    <Tag00080018 FieldName="SOPInstanceUID" VR="UI">190</Tag00080018>
+    <Tag0027a002 FieldName="DeviceType" VR="LO"></Tag0027a002>
+    <Tag0027a001 FieldName="DeviceRecordResult" VR="LT">
+      <TEM>36.9</TEM>
+    </Tag0027a001>
+    <Tag00080012 FieldName="InstanceCreatorDate" VR="DA">20170628</Tag00080012>
+    <Tag00080014 FieldName="InstanceCreatorUID" VR="UI">12131231311</Tag00080014>
+    <Tag00080013 FieldName="InstanceCreatorTime" VR="TM">101708</Tag00080013>
+    <Tag0018a001 FieldName="ContributingEquipmentSequence" VR="LT"></Tag0018a001>
+  </SOPInstance>
+</PCD>
