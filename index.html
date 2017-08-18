@@ -54,6 +54,8 @@
                 tooltips: {
                     mode: 'index',
                     intersect: false,
+					titleFontSize: 20,
+					bodyFontSize: 15
                 },
                 hover: {
                     mode: 'nearest',
@@ -64,20 +66,30 @@
                         display: true,
                         scaleLabel: {
                             display: true,
-                            labelString: '時間'
-                        }
+                            labelString: '時間',
+							fontSize: 20
+                        },
+						fontSize: 15
                     }],
                     yAxes: [{
                         display: true,
                         scaleLabel: {
                             display: true,
-                            labelString: '測量數值'
+                            labelString: '測量數值',
+							fontSize: 20
                         },
 						ticks: {
+							fontSize: 15,
 							beginAtZero:true
                 		}
                     }]
-                }
+                },
+				legend: {
+            display: true,
+            labels: {
+                fontSize: 15
+            }
+        }
             }
         };
 	if (window.XMLHttpRequest){// code for IE7+, Firefox, Chrome, Opera, Safari
