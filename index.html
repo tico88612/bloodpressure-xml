@@ -8,7 +8,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script>
 <script type="text/javascript">
-	alert("正在測試中 Debug Mode\nDemo平台：Github.io");
+	alert("正在測試中 Debug Mode\n");
 	//var MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 	//Chart.defaults.global.defaultFontSize = 20;
         var config = {
@@ -108,9 +108,14 @@
 	{// code for IE6, IE5
 		xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
 	}
-	xmlhttp.open("GET","xml/tester.xml",false);
+	xmlhttp.open("GET","http://203.64.84.214:1128/API/medication/search.aspx?ID=S124564070&TYPE=PCD&LEVEL=sopinstance&START=20150101&END=20180101",false);
 	xmlhttp.send();
-	xmlDoc=xmlhttp.responseXML;
+	strxml = xmlhttp.responseText;
+    // alert(strxml);
+    var xmlDOM = new DOMParser();
+    var xmlDoc = xmlDOM.parseFromString(strxml, "text/xml");
+	//xmlDoc=xmlhttp.responseXML;
+	//alert(xmlDoc);
 	//alert(xmlDoc.getElementsByTagName("Tag0027a001")[0].getElementsByTagName("TEM")[0].childNodes[0].nodeValue);
 	for(var i=0;xmlDoc.getElementsByTagName("Tag0027a001")[i]; i+=1){
 		//var readoc=xmlDoc.getElementsByTagName("Tag0027a001")[i].getElementsByTagName("SBP")[0];
@@ -129,7 +134,7 @@
 			config.data.labels.push(year+'/'+month+'/'+day+' '+hour+':'+minute+':'+second);
 		}
 	}
-	    
+
 
         window.onload = function() {
             var ctx = document.getElementById("chart-area").getContext("2d");
